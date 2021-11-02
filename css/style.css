@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(white, grey);
+  padding: 0.5rem;
+  position: sticky;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(grey, black);
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav_list {
+  display: flex;
+  padding: 2rem;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.col {
+  width: 100%;
+}
+
+.nav_item {
+  margin: 0 0 0 1.5rem;
+  color: rgb(73, 71, 71);
+}
+
+.nav_link:hover {
+  opacity: 0.65;
+}
+
+.contenedor {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  max-width: 1320px;
+}
+
+/*Estilo de index */
+.tituloPrincipal {
+  color: pink;
+  text-align: center;
+}
+
+#tabla {
+  border: white solid;
+  width: 40rem;
+}
+
+/*Estilo de pages */
+.tituloSecundario {
+  color: pink;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+}
+
+th {
+  color: white;
+  text-align: center;
+  width: 1000px;
+}
+
+tr {
+  color: white;
+  text-align: center;
+}
+tr ul li {
+  list-style: none;
+}
+.etiqueta {
+  color: pink;
+}
+
+.texto {
+  margin-top: 20px;
+  margin-left: 80px;
+  text-align: center;
+  color: white;
+}
+
+/*Estilos Grid*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  margin: 0;
+  padding: 6rem;
+  justify-items: center;
+  grid-row: auto;
+}
+
+.grid p {
+  font-style: oblique;
+}
+
+/*Estilos footer*/
+
+.footer {
+  padding-top: 1rem;
+  display: flex;
+  background: linear-gradient(black, grey);
+}
+
+.footer-sm {
+  color: beige;
+  align-items: flex-end;
+}
+
+header {
+  grid-area: header;
+  align-items: flex-end;
+}
+
+nav {
+  grid-area: nav;
+}
+
+footer {
+  grid-area: footer;
+}
+
+section {
+  background: linear-gradient(grey, black);
+}
+
+.logo {
+  width: 8%;
+}
+
+.redes {
+  width: 4%;
+}
+
+.mayor-tamaño {
+  font-size: large;
+  width: 25rem;
+}
