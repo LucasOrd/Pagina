@@ -154,3 +154,8 @@ section {
   font-size: large;
   width: 25rem;
 }
+
+.transicion:hover {
+  transition: 3s;
+  font-size: 3rem;
+}
