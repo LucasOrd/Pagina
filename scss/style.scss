@@ -1,14 +1,14 @@
 @import "global";
 
 header {
-  background: linear-gradient(white, grey);
+  background: rgb(70, 69, 69);
   padding: 0.5rem;
   position: sticky;
 }
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background: linear-gradient(grey, black);
+  background: black;
 }
 
 img {
@@ -83,6 +83,7 @@ tr {
 }
 tr ul li {
   list-style: none;
+  color: white;
 }
 .etiqueta {
   color: pink;
@@ -109,6 +110,18 @@ tr ul li {
   width: 100vh;
 }
 
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 1rem;
+  margin: auto;
+  padding: 3rem;
+  justify-items: center;
+  grid-row: auto;
+  width: 100vh;
+}
+
 .grid p {
   font-style: oblique;
 }
@@ -118,7 +131,7 @@ tr ul li {
 .footer {
   padding-top: 1rem;
   display: flex;
-  background: linear-gradient(black, grey);
+  background: black;
 }
 
 .footer-sm {
@@ -140,7 +153,7 @@ footer {
 }
 
 section {
-  background: linear-gradient(grey, black);
+  background: black;
 }
 
 .logo {
