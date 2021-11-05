@@ -155,6 +155,8 @@ footer {
 
 section {
   background: black;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -173,6 +175,16 @@ section {
 .transicion:hover {
   transition: 3s;
   font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-contacto {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
